@@ -9,7 +9,10 @@ type PinAddSettings struct {
 
 // PinLsSettings represent the settings for PinAPI.Ls
 type PinLsSettings struct {
-	Type string
+	Type   string
+	Arg    string
+	Quiet  bool
+	Stream bool
 }
 
 // PinIsPinnedSettings represent the settings for PinAPI.IsPinned
